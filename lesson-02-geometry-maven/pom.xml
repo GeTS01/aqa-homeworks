@@ -3,16 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>aqa-homeworks</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>org.example</groupId>
-    <artifactId>aqa-homeworks</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>lesson-02-geometry-maven</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>lesson-01-maven-plugin</module>
-        <module>lesson-02-geometry-maven</module>
+        <module>geometry-library</module>
+        <module>geometry-app</module>
     </modules>
-
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

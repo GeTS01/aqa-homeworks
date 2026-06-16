@@ -7,7 +7,7 @@ public class Circle {
      * @param radius - радиус
      * @return - возвращает площадь круга
      */
-    static double square(double radius){
+    double square(double radius){
         return Math.PI * Math.pow(radius, 2);
     }
 
@@ -16,7 +16,7 @@ public class Circle {
      * @param radius - радиус
      * @return - возвращает радиус круга
      */
-    static double perimeter(double radius){
+    double perimeter(double radius){
         return 2.0 * Math.PI * radius;
     }
 }

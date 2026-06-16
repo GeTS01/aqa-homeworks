@@ -9,7 +9,7 @@ public class Triangle {
      * @param h - высота треугольника
      * @return - возвращает площадь треугольника
      */
-    static double square(double a, double h){
+    double square(double a, double h){
         return 0.5 * a * h;
     }
 
@@ -20,7 +20,7 @@ public class Triangle {
      * @param c - сторона треугольника
      * @return - возвращает периметр треугольника
      */
-    static double perimeter(double a, double b, double c){
+    double perimeter(double a, double b, double c){
         return a + b + c;
     }
 

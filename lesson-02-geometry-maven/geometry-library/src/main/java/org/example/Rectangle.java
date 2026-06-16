@@ -8,7 +8,7 @@ public class Rectangle {
      * @param b - сторона прямоугольника
      * @return - возвращает площади прямоугольника
      */
-    static double square(double a, double b){
+    double square(double a, double b){
         return 2.0 * (a + b);
     }
 
@@ -18,7 +18,7 @@ public class Rectangle {
      * @param b - сторона прямоугольника
      * @return возвращает периметр прямоугольника
      */
-    static double perimeter(double a, double b){
+    double perimeter(double a, double b){
         return a * b;
     }
 }

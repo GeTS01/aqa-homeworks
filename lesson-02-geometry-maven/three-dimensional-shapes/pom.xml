@@ -5,18 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.example</groupId>
-        <artifactId>aqa-homeworks</artifactId>
+        <artifactId>lesson-02-geometry-maven</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>lesson-02-geometry-maven</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>geometry-library</module>
-        <module>geometry-app</module>
-        <module>geometry-utils</module>
-        <module>three-dimensional-shapes</module>
-    </modules>
+    <artifactId>three-dimensional-shapes</artifactId>
+    <version>1.1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>

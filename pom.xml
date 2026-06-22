@@ -15,6 +15,7 @@
         <module>lesson-04-collection-mapping</module>
         <module>lesson-05-collection-count-elements</module>
         <module>lesson-06-cillection-count-elements</module>
+        <module>lesson-07-parallel-stream-student-grades</module>
     </modules>
 
 

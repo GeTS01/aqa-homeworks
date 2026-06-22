@@ -16,6 +16,7 @@
         <module>lesson-05-collection-count-elements</module>
         <module>lesson-06-cillection-count-elements</module>
         <module>lesson-07-parallel-stream-student-grades</module>
+        <module>lesson-08-forkjoin-factorial-calculator</module>
     </modules>
 
 
